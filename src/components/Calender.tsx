@@ -69,6 +69,17 @@ export const Calendar: React.FC = () => {
 
   return (
     <div className="flex gap-6 max-w-7xl mx-auto">
+      <div> 
+        <h1 className='text-white font-semibold text-3xl underline'>Calender Application</h1>
+        <p className='mt-8 text-white text-2xl'>Features</p>
+        <ul className='text-white mt-4 list-disc'>
+          <li>Display grid for the current month.</li>
+          <li>Allows to switch between months.</li>
+          <li>Add Update and delete events along with time.</li>
+          <li>Display event in a separate panel</li> 
+          <li>Clean and modern UI.</li>
+        </ul>
+      </div>
       {/* Calendar Section */}
       <div className="flex-1 bg-white rounded-xl shadow-lg">
         <CalendarHeader

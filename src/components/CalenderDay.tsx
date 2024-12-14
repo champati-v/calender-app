@@ -30,7 +30,8 @@ export const CalendarDay: React.FC<CalendarDayProps> = ({
         {
           'text-gray-400': !isThisMonth,
           'text-gray-900': isThisMonth,
-          'bg-blue-50': isToday,
+          'bg-blue-500': isToday,
+          'text-white': isToday,
         }
       )}
     >
