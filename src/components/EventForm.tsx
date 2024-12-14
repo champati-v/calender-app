@@ -45,7 +45,7 @@ export const EventForm: React.FC<EventFormProps> = ({
           required
           value={formData.title}
           onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+          className="mt-1 block w-full rounded-md border border-gray-400 shadow-sm focus:border-blue-500 focus:ring-blue-500"
         />
       </div>
 
@@ -55,7 +55,7 @@ export const EventForm: React.FC<EventFormProps> = ({
           type="time"
           value={formData.time}
           onChange={(e) => setFormData({ ...formData, time: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+          className="mt-1 p-2 block w-full rounded-md border border-gray-400 shadow-sm focus:border-blue-500 focus:ring-blue-500"
         />
       </div>
 
@@ -66,7 +66,7 @@ export const EventForm: React.FC<EventFormProps> = ({
         <textarea
           value={formData.description}
           onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-          className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+          className="mt-1 p-2 block w-full rounded-md border border-gray-400 shadow-sm focus:border-blue-500 focus:ring-blue-500"
           rows={3}
         />
       </div>
